@@ -1,0 +1,75 @@
+*{
+    background-color: blueviolet;
+}
+
+.koka{
+    display: flex;
+    background-color: brown;
+    margin: 30px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25;
+    font-weight: 700;
+}
+
+.koka div{
+    border: 1px solid black;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.titulli{
+    font-size: 50px;   
+    text-align: center;
+}
+
+.Kollazhet{
+    display: flex;
+}
+
+.Kollazhet div{
+    flex: 1 1 auto;
+    margin: 100px;
+    height: 140px;
+    border: 5px solid rgb(156, 125, 156);
+    background-color: rgb(206, 49, 49);
+}
+
+.Format{
+    display: flex;
+}
+.Format div{
+    flex: 1 1 auto;
+    margin: 100px;
+    height: 140px;
+    border: 5px solid rgb(43, 12, 199);
+    background-color: rgb(49, 206, 198);
+}
+
+.forma3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forma3 div{
+    height: 70px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.kembet{
+    display: flex;
+}
+
+.kembet div{
+    flex: 1;
+    border: 4px solid black;
+    background-color: pink;
+    gap: 30px;
+    height: 200px;
+    margin: 30px;
+}
